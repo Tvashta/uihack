@@ -8,7 +8,7 @@ function SuccessPage() {
   const { professional, slot, email } = location.state;
 
   return (
-    <div className="p-6 text-center">
+    <div className="confirmation p-6 text-center">
       <h2 className="text-2xl font-bold text-green-600">Booking Confirmed!</h2>
       <p className="mt-2">You have successfully booked {professional.name} at {slot}.</p>
       <p>A confirmation email has been sent to {email}.</p>

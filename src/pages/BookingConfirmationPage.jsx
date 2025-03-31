@@ -13,7 +13,7 @@ function BookingConfirmationPage() {
   };
 
   return (
-    <div className="p-6">
+    <div className="p-6 confirmation">
       <h2 className="text-2xl font-bold mb-4">Confirm Booking</h2>
       <p className="mb-2">You are booking {professional.name} at {slot}</p>
       <input
